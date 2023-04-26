@@ -1,0 +1,227 @@
+body{
+    background-color: #F3F5FC;
+    margin-right: 0;
+}
+/* Vector */
+header img{
+    position: absolute;
+    height: 48px;
+    width: 31.085588455200195px;
+    left: 44px;
+    top: 0px;
+    border-radius: 0px;
+    margin: 2%;
+
+}
+article{
+    display: inline-flexbox;
+    width: 50%;
+    align-items: center;
+    float: left;
+    margin: 0%;
+    vertical-align: middle;
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 0;
+    color: #0A3871;
+}
+article textarea::placeholder{
+    background-color:#F3F5FC;
+    border: none;
+    color: #0A3871;
+    font-family: 'Inter', sans-serif;
+}
+
+#text{
+    background-color:#F3F5FC;
+    border: none;
+    color: #0A3871;
+    font-family: 'Inter', sans-serif;
+    font-size:x-large;
+    width: 100%;
+    min-height: 450px;
+}
+
+#copiartexto{
+    display:none;
+}
+
+article textarea:focus, input:focus{
+    outline: none;
+}
+
+article .botonEncriptar{
+    background-color: #0A3871;
+    color: #FFFFFF;
+    width: 45%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 20px;
+    border: none;
+    margin: 1%;
+    font-size: medium;
+}
+
+article .botonDesencriptar{
+    background-color:#D8DFE8;
+    color:#0A3871;
+    width: 45%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 20px;
+    border:1px solid #0A3871;
+    font-size:medium;
+    margin:1%;
+    
+}
+article input{
+    font-size: 10px;
+    font-family: 'Inter', sans-serif;
+
+}
+article svg{
+    
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    padding: 0%;
+}
+
+article label{
+    font-family: 'Inter', sans-serif;
+    font-size: small;
+    color: #343A40;
+    margin: 10px;
+}
+
+aside{
+    display: inline-block;
+    margin:0;
+    width: 35%;
+    height: 80%;
+    padding: auto;
+}
+.traduccion{
+    background-color: #FFFFFF;
+    min-height: 650px;
+    width: 90%;
+    min-width: 200px;
+    top: 5%;
+    bottom: 5%;
+    border-radius: 32px;
+    position:relative;
+    margin: 0%;
+    align-self: right;
+    text-align: center;
+    display: inline-flexbox;
+    float:right;
+    box-shadow:1px 1px 5px  grey;
+    
+}
+aside img{
+    align-items: center;
+    vertical-align: middle;
+    position: relative;
+    align-self: center;
+    width: 70%;
+    display: inline-block;
+    padding-top: 30%;
+    padding-left: 0%;
+    padding-right: 0%;
+    align-content: center;
+}
+
+aside h3{
+    color: #343A40;
+    font-family: 'Inter', sans-serif;
+    display: block;
+}
+aside p{
+    color: #343A40;
+    font-family: 'Inter', sans-serif;
+    display: block;
+
+}
+aside .botonCopiar{
+    background-color: #F3F5FC;
+    color: #0A3871;
+    border-color: #0A3871;
+    width: 45%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 20px;
+    border:1px solid #0A3871;
+    margin: 1%;
+    font-size: medium;
+}
+@media screen and (max-width: 980px){
+    article{
+        display: block;
+        width: 100%;
+        align-items: center;
+        margin: 0;
+        margin-top: 50px;
+        align-self: center;
+        color: #0A3871;
+        justify-items: center;
+    }
+    aside {
+        margin-top: 10px;
+        display: block;
+        float: none;
+        width: 90%;
+        align-self: center;
+        height:min-content;
+    }
+    aside img{
+        display: none;        
+    }
+    .traduccion{
+        margin-top: 10px;
+        display: block;
+        min-height: 150px;
+        height: fit-content;
+        width: 90%;
+        align-self: center;
+        padding: auto;
+        box-shadow:1px 1px 5px  grey;
+        margin-bottom: 20px;
+    }
+    aside h3{
+        font-size: large;
+    }
+    aside p{
+        font-size: medium;
+    
+    }
+    article textarea{
+        font-size:xx-large;
+        width: 90%;
+        min-height: 300px;
+        margin-top: 20px;
+    }
+    article .botonEncriptar{
+        display:block;
+        font-size: large;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: auto;
+        padding-right: auto;
+        border-radius: 15px;
+        width: 90%;
+    }
+    
+    article .botonDesencriptar{
+        display: block;
+        font-size: large;
+        align-self: center;
+        margin: auto;
+        padding-left: auto;
+        padding-right: auto;
+        border-radius: 15px;
+        width: 90%;
+        
+    }
+}
+
